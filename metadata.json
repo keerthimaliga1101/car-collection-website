@@ -1,0 +1,6 @@
+{
+  "name": "Aurelia Vault — Curated Automotive Collections",
+  "description": "An archival gallery and private acquisition house showcasing curated automotive collections across coachbuilt grand tourers, rally homologation icons, analog hypercars, and Le Mans endurance prototypes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
