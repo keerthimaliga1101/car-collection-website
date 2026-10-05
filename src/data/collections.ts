@@ -1,3 +1,9 @@
+import heroVaultImg from '../assets/images/hero_atelier_vault_1791195412173.jpg';
+import carClassicGtImg from '../assets/images/car_classic_gt_1791195425881.jpg';
+import carHomologationRallyImg from '../assets/images/car_homologation_rally_1791195438868.jpg';
+import carAnalogHypercarImg from '../assets/images/car_analog_hypercar_1791195450702.jpg';
+import carEndurancePrototypeImg from '../assets/images/car_endurance_prototype_1791195462712.jpg';
+
 export type CollectionId =
   | 'coachbuilt-gt'
   | 'group-b-homologation'
@@ -85,7 +91,7 @@ export interface CuratedCollection {
   vehicleCount: number;
 }
 
-export const HERO_VAULT_IMAGE = '/src/assets/images/hero_atelier_vault_1791195412173.jpg';
+export const HERO_VAULT_IMAGE = heroVaultImg;
 
 export const CURATED_COLLECTIONS: CuratedCollection[] = [
   {
@@ -97,7 +103,7 @@ export const CURATED_COLLECTIONS: CuratedCollection[] = [
     curatorName: 'Dr. Lorenzo Valenti',
     curatorTitle: 'Chief Archivist, Coachwork & Post-War Touring',
     galleryLocation: 'North Travertine Pavilion · Milan & Geneva Vaults',
-    heroImage: '/src/assets/images/car_classic_gt_1791195425881.jpg',
+    heroImage: carClassicGtImg,
     figureCaption: 'Fig. 01 — 1961 Coachbuilt Berlinetta resting on warm limestone after a 2,400-hour bare-metal restoration.',
     openingDropCapEssay:
       'During the golden fifteen-year window between 1954 and 1968, the European grand tourer achieved an unrepeatable equilibrium between competition pedigree and tailoring. Before wind-tunnel homogenization dictated identical silhouettes, master panel-beaters in Modena, Turin, and Newport Pagnell shaped alloy sheets over wooden bucks by eye and mallet.',
@@ -123,7 +129,7 @@ export const CURATED_COLLECTIONS: CuratedCollection[] = [
     curatorName: 'Henrik Lindqvist',
     curatorTitle: 'Curator of Motorsport Homologation',
     galleryLocation: 'Subterranean Slate Gallery · Wing B',
-    heroImage: '/src/assets/images/car_homologation_rally_1791195438868.jpg',
+    heroImage: carHomologationRallyImg,
     figureCaption: 'Fig. 02 — 1985 Group B Stradale homologation special displaying functional NACA ducting and box-flared Kevlar arches.',
     openingDropCapEssay:
       'FISA’s 1982 Group B regulations required manufacturers to build just two hundred road-going examples to homologate radial spaceframe monsters for the World Rally Championship. The resulting street cars were sparse, visceral engineering exercises featuring tubular chromoly subframes, twin-charging systems, and aerodynamic turbofan wheels.',
@@ -149,7 +155,7 @@ export const CURATED_COLLECTIONS: CuratedCollection[] = [
     curatorName: 'Claire Moreau-Vance',
     curatorTitle: 'Director of Modern Classics & Carbon Architecture',
     galleryLocation: 'Central Basalt Hall · Acoustic Chamber',
-    heroImage: '/src/assets/images/car_analog_hypercar_1791195450702.jpg',
+    heroImage: carAnalogHypercarImg,
     figureCaption: 'Fig. 03 — 2004 Carbon-Monocoque V10 Hypercar featuring beechwood shift knob and ceramic composite clutch.',
     openingDropCapEssay:
       'Prior to the widespread adoption of dual-clutch gearboxes, hybrid torque-fill, and electric power steering, a brief epoch of analog hypercars combined Formula One carbon-fiber monocoques with unassisted driver controls and screaming naturally aspirated ten- and twelve-cylinder powerplants.',
@@ -175,7 +181,7 @@ export const CURATED_COLLECTIONS: CuratedCollection[] = [
     curatorName: 'Sebastien De Vries',
     curatorTitle: 'Senior Specialist, Sarthe & Endurance Provenance',
     galleryLocation: 'East Alabaster Rotunda · Sarthe Wing',
-    heroImage: '/src/assets/images/car_endurance_prototype_1791195462712.jpg',
+    heroImage: carEndurancePrototypeImg,
     figureCaption: 'Fig. 04 — 1997 GT1 Straßenversion homologation prototype with roof-mounted ram-air plenum and ground-effect diffuser.',
     openingDropCapEssay:
       'Twenty-four hours at La Sarthe has historically served as the ultimate crucible for aerodynamic efficiency, brake thermal management, and structural endurance. Occasionally, regulatory loopholes compelled racing departments in Weissach, Affalterbach, and Dearborn to fit license-plate brackets and turn signals onto full-blooded Le Mans prototypes.',
@@ -295,7 +301,7 @@ export const CURATED_CARS: CarItem[] = [
     valuationUsd: 1650000,
     availabilityStatus: 'Available for Private Treaty',
     galleryWing: 'North Travertine Pavilion · Bay 02',
-    image: '/src/assets/images/car_classic_gt_1791195425881.jpg',
+    image: carClassicGtImg,
     imageCaption: 'Factory Vantage-spec DB5/1682/R displaying Superleggera tube-frame aluminum coachwork.',
     specs: {
       engineConfiguration: '4.0L Tadek Marek DOHC Inline-6 (Triple Weber)',
@@ -445,7 +451,7 @@ export const CURATED_CARS: CarItem[] = [
     valuationUsd: 1180000,
     availabilityStatus: 'Available for Private Treaty',
     galleryWing: 'Subterranean Slate Gallery · Bay 04',
-    image: '/src/assets/images/car_homologation_rally_1791195438868.jpg',
+    image: carHomologationRallyImg,
     imageCaption: 'Lancia Delta S4 Stradale with clamshell rear Kevlar-composite canopy and twin-charged Abarth four-cylinder.',
     specs: {
       engineConfiguration: '1.8L Mid-Mounted Abarth 233 ATR 18S DOHC Inline-4 (Twin-Charged)',
@@ -519,7 +525,7 @@ export const CURATED_CARS: CarItem[] = [
     valuationUsd: 2190000,
     availabilityStatus: 'Available for Private Treaty',
     galleryWing: 'Subterranean Slate Gallery · Bay 05',
-    image: '/src/assets/images/car_homologation_rally_1791195438868.jpg',
+    image: carHomologationRallyImg,
     imageCaption: 'Porsche 959 featuring hollow-spoke magnesium wheels with integrated tire-pressure monitoring.',
     specs: {
       engineConfiguration: '2.85L Type 959/50 Water/Air-Cooled Flat-6 (Sequential Twin-Turbo)',
@@ -593,7 +599,7 @@ export const CURATED_CARS: CarItem[] = [
     valuationUsd: 1550000,
     availabilityStatus: 'On Archival Loan',
     galleryWing: 'Subterranean Slate Gallery · Bay 06',
-    image: '/src/assets/images/car_homologation_rally_1791195438868.jpg',
+    image: carHomologationRallyImg,
     imageCaption: 'Short-wheelbase Audi Sport quattro showing steeper raked Audi 80 windshield and 9-inch Ronal wheels.',
     specs: {
       engineConfiguration: '2.1L Alloy-Block KW 20-Valve DOHC Inline-5 (KKK K27 Turbo)',
@@ -669,7 +675,7 @@ export const CURATED_CARS: CarItem[] = [
     valuationUsd: 1680000,
     availabilityStatus: 'Available for Private Treaty',
     galleryWing: 'Central Basalt Hall · Bay 07',
-    image: '/src/assets/images/car_analog_hypercar_1791195450702.jpg',
+    image: carAnalogHypercarImg,
     imageCaption: '2005 Porsche Carrera GT in GT Silver Metallic over Ascot Brown leather with laminated beechwood shifter.',
     specs: {
       engineConfiguration: '5.7L 68° Type M80/01 Dry-Sump V10 (Naturally Aspirated)',
@@ -743,7 +749,7 @@ export const CURATED_CARS: CarItem[] = [
     valuationUsd: 21500000,
     availabilityStatus: 'Reserved for Inspection',
     galleryWing: 'Central Basalt Hall · Bay 08',
-    image: '/src/assets/images/car_analog_hypercar_1791195450702.jpg',
+    image: carAnalogHypercarImg,
     imageCaption: 'Central-driving-position McLaren F1 featuring 24-karat gold foil engine bay thermal shielding.',
     specs: {
       engineConfiguration: '6.1L 60° BMW M S70/2 Dry-Sump V12 (Naturally Aspirated)',
@@ -817,7 +823,7 @@ export const CURATED_CARS: CarItem[] = [
     valuationUsd: 3120000,
     availabilityStatus: 'Available for Private Treaty',
     galleryWing: 'Central Basalt Hall · Bay 09',
-    image: '/src/assets/images/car_analog_hypercar_1791195450702.jpg',
+    image: carAnalogHypercarImg,
     imageCaption: 'Lexus LFA Nürburgring Package featuring fixed carbon rear wing, canards, and Yamaha-tuned 1LR-GUE V10.',
     specs: {
       engineConfiguration: '4.8L 72° Yamaha-Co-Developed 1LR-GUE V10 (Naturally Aspirated)',
@@ -893,7 +899,7 @@ export const CURATED_CARS: CarItem[] = [
     valuationUsd: 11400000,
     availabilityStatus: 'Available for Private Treaty',
     galleryWing: 'East Alabaster Rotunda · Bay 10',
-    image: '/src/assets/images/car_endurance_prototype_1791195462712.jpg',
+    image: carEndurancePrototypeImg,
     imageCaption: '1997 Porsche 911 GT1 Straßenversion uniting a 993 front clip with a 962 Group C mid-engine tail.',
     specs: {
       engineConfiguration: '3.2L Mid-Mounted Type M96/80 Water-Cooled Flat-6 (Twin-Turbo)',
@@ -967,7 +973,7 @@ export const CURATED_CARS: CarItem[] = [
     valuationUsd: 13200000,
     availabilityStatus: 'Reserved for Inspection',
     galleryWing: 'East Alabaster Rotunda · Bay 11',
-    image: '/src/assets/images/car_endurance_prototype_1791195462712.jpg',
+    image: carEndurancePrototypeImg,
     imageCaption: '1998 Mercedes-Benz AMG CLK GTR Straßenversion #14 with dihedral doors and 6.9-liter V12.',
     specs: {
       engineConfiguration: '6.9L 60° AMG M297 Dry-Sump V12 (Naturally Aspirated)',
@@ -1041,7 +1047,7 @@ export const CURATED_CARS: CarItem[] = [
     valuationUsd: 9300000,
     availabilityStatus: 'Available for Private Treaty',
     galleryWing: 'East Alabaster Rotunda · Bay 12',
-    image: '/src/assets/images/car_endurance_prototype_1791195462712.jpg',
+    image: carEndurancePrototypeImg,
     imageCaption: '1966 Ford GT40 Mk I Road Car P/1051 featuring Borrani wire wheels and quartet of Weber 48 IDA carburetors.',
     specs: {
       engineConfiguration: '4.7L 90° Ford 289 High-Performance OHV V8 (Quad Weber 48 IDA)',
